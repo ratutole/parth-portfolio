@@ -1,0 +1,180 @@
+body{
+    font-family: 'KoHo', sans-serif;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+  
+  #welcome-section{
+    background: green;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+  }
+  
+  #welcome-section p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  h1,h2{
+    font-weight:500;
+    font-size: 24px;
+  }
+  
+  h2{
+    font-size:20px;
+    text-align:center;
+  }
+  
+  a{
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  #projects{
+    margin-top: 40px;
+  }
+  
+  
+  
+  body,h1,p,h2,h3{
+    margin:0;
+    padding:0;
+  }
+  
+  a{
+    text-decoration: none;
+    background: steelblue;
+    padding: 20px;
+  }
+  
+  .work-container{
+    width:50%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,150px);
+    margin-top: 30px;
+  }
+
+  .project-title{
+      display: flex;
+      justify-content: center;
+  }
+
+  .project-title a{
+      margin: 0;
+      align-self: center;
+      transition: all .2s;
+  }
+  
+
+  .project-title a:hover{
+      color:black;
+  }
+  #navbar a{
+    padding:5px 10px;
+    margin:0;
+    /* background-color:green; */
+    background: none;
+    color: black;
+    transition: all .2s;
+  }
+
+  #navbar a:hover{
+      color:black;
+      background: yellow;
+  }
+  
+  #navbar{
+    position:fixed;
+    right:1%
+  }
+  
+  ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    padding: 5px 0px;
+    justify-content: flex-end;
+    margin:0;
+  /*   position: fixed; */
+  }
+  
+  li{
+    padding: 5px 25px;
+    margin: 2px;
+    /* background: steelblue; */
+    cursor: pointer;
+  }
+
+ 
+  hr{
+      color: rgba(0,0,0,.4);
+  }
+  
+  
+  #contact{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    height:75px;
+    margin-top: 20px;
+  }
+
+  #contact p{
+      margin-top: 5px;
+  }
+  
+  .uni a{
+    display:flex;
+    align-items: center;
+    background: orange;
+    justify-content: center;
+    border-radius: 0px;
+    transition: all .2s;
+  }
+
+  .uni a:hover{
+      color: black;
+  }
+  
+  .uni{
+    padding-top: 30px;
+    margin:0 auto;
+  }
+
+  #pens{
+      margin-top: 40px;
+  }
+  
+  #pens a{
+      background: lightcyan;
+      color: black;
+      border: 1px solid rgba(0,0,0,.3);
+  }
+
+  #pens a:hover{
+      background: orange;
+  }
+
+  @media screen and (max-width:576px){
+    a{
+      border-radius: 0px;
+    }
+    
+    .work-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,150px);
+    }
+  }

@@ -95,6 +95,10 @@ body{
       color:black;
       background: yellow;
   }
+
+  .nav-mobile{
+    margin: 0 auto;
+  }
   
   #navbar{
     position:fixed;
@@ -171,6 +175,16 @@ body{
   @media screen and (max-width:576px){
     a{
       border-radius: 0px;
+    }
+
+    li{
+      padding: 5px 10px;
+    }
+
+    #navbar{
+      width: 100%;
+      display: flex;
+      justify-content: center;
     }
     
     .work-container{

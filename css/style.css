@@ -195,6 +195,13 @@ body{
     width: 100%;
   }
 
+  .copyright{
+    text-align: center;
+    background: #eee;
+    padding: 20px 0px;
+    font-size: 14px;
+  }
+
   @media screen and (max-width:576px){
     a{
       border-radius: 0px;

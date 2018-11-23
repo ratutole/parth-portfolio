@@ -171,6 +171,8 @@ body{
   
   .uni{
     /* padding:20px; */
+    min-width:280px;
+    max-width: 70%;
     padding-top: 50px;
     margin:0 auto;
   }

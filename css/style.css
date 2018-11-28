@@ -117,10 +117,10 @@ body{
       background: yellow;
   }
 
-  .nav-mobile{
-    margin: 0 auto;
+  /* .nav-mobile{
+    /* margin: 0 auto; */
   }
-  
+   */
   #navbar{
     position:fixed;
     right:1%
@@ -223,7 +223,7 @@ body{
     #navbar{
       width: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
     }
 
     .survey,.landing,.technical,.tribute{

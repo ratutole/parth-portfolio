@@ -77,7 +77,6 @@ body{
   }
   
   
-  
   body,h1,p,h2,h3{
     margin:0;
     padding:0;
@@ -106,17 +105,6 @@ body{
   }
 
   
-
- 
-  .project-title{
-    /* border: 1px solid rgba(0,0,0,.6); */
-    /* border-bottom: none; */
-  }
-
-
-  /* .project-title a:hover{
-      color:black;
-  } */
   #navbar a{
     padding:5px 10px;
     margin:0;
@@ -219,6 +207,8 @@ body{
     height: auto;
     width: 100%;
   }
+
+  
 
   .copyright{
     text-align: center;

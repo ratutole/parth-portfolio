@@ -1,5 +1,6 @@
 body{
     font-family: 'KoHo', sans-serif;
+    background: #f7f7f7;
 }
 
 #container{
@@ -80,6 +81,7 @@ body{
   body,h1,p,h2,h3{
     margin:0;
     padding:0;
+    /* background: #f7f7f7; */
   }
   
   

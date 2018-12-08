@@ -3,13 +3,17 @@ body{
     background: #f7f7f7;
 }
 
+
+
+
 #container{
     display:grid;
     grid-template-columns: 1fr;
   }
   
   #welcome-section{
-    background: green;
+    position: relative;
+    /* background: green; */
     display:flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +25,33 @@ body{
     font-size: 14px;
     text-align: center;
     margin-top: 5px;
+  }
+
+  .bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.97;
+  }
+
+  .bg-video__content{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .main-intro{
+    background: rgba(183, 183, 183, 0.25);
+    padding: 1rem 2.5rem;
+    transform: skew(-12deg);
+  }
+
+  .main-intro > * {
+    transform: skew(12deg);
   }
   
   h1,h2{
